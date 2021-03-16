@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACC949F62601201B00D3EFDA /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC949F52601201B00D3EFDA /* FoodCollectionViewCell.swift */; };
+		ACC949FB260125D500D3EFDA /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC949FA260125D500D3EFDA /* b.png */; };
+		ACC94A012601278600D3EFDA /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC94A002601278600D3EFDA /* FoodData.swift */; };
+		ACC94A0A260127B100D3EFDA /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC94A09260127B100D3EFDA /* Food.swift */; };
 		ACF2D20725FE690D003C51E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2D20625FE690D003C51E7 /* AppDelegate.swift */; };
 		ACF2D20925FE690D003C51E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2D20825FE690D003C51E7 /* SceneDelegate.swift */; };
 		ACF2D20B25FE690D003C51E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2D20A25FE690D003C51E7 /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ACC949F52601201B00D3EFDA /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		ACC949FA260125D500D3EFDA /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		ACC94A002601278600D3EFDA /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
+		ACC94A09260127B100D3EFDA /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		ACF2D20325FE690D003C51E7 /* Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF2D20625FE690D003C51E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACF2D20825FE690D003C51E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +84,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACC949FF2601277100D3EFDA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				ACC94A002601278600D3EFDA /* FoodData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		ACC94A082601279D00D3EFDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACC94A09260127B100D3EFDA /* Food.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		ACF2D1FA25FE690D003C51E7 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +123,9 @@
 		ACF2D20525FE690D003C51E7 /* Collection */ = {
 			isa = PBXGroup;
 			children = (
+				ACC94A082601279D00D3EFDA /* Model */,
+				ACC949FF2601277100D3EFDA /* Data */,
+				ACC949FA260125D500D3EFDA /* b.png */,
 				ACF2D20625FE690D003C51E7 /* AppDelegate.swift */,
 				ACF2D20825FE690D003C51E7 /* SceneDelegate.swift */,
 				ACF2D20A25FE690D003C51E7 /* ViewController.swift */,
@@ -106,6 +133,7 @@
 				ACF2D20F25FE6910003C51E7 /* Assets.xcassets */,
 				ACF2D21125FE6910003C51E7 /* LaunchScreen.storyboard */,
 				ACF2D21425FE6910003C51E7 /* Info.plist */,
+				ACC949F52601201B00D3EFDA /* FoodCollectionViewCell.swift */,
 			);
 			path = Collection;
 			sourceTree = "<group>";
@@ -233,6 +261,7 @@
 			files = (
 				ACF2D21325FE6910003C51E7 /* LaunchScreen.storyboard in Resources */,
 				ACF2D21025FE6910003C51E7 /* Assets.xcassets in Resources */,
+				ACC949FB260125D500D3EFDA /* b.png in Resources */,
 				ACF2D20E25FE690D003C51E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +289,10 @@
 			files = (
 				ACF2D20B25FE690D003C51E7 /* ViewController.swift in Sources */,
 				ACF2D20725FE690D003C51E7 /* AppDelegate.swift in Sources */,
+				ACC949F62601201B00D3EFDA /* FoodCollectionViewCell.swift in Sources */,
+				ACC94A012601278600D3EFDA /* FoodData.swift in Sources */,
 				ACF2D20925FE690D003C51E7 /* SceneDelegate.swift in Sources */,
+				ACC94A0A260127B100D3EFDA /* Food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
